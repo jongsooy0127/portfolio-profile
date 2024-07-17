@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: rgb(45, 45, 45);
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        margin-left: auto;
+        gap: 3rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: left;
+    }
+}
+
+main {
+    background-color: #EEEEEE;
+}
+
+header>img {
+    width: 100%;
+    opacity: 0.9;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile-picture {
+    border-radius: 50%;
+    max-width: 90%;
+    background: linear-gradient(rgb(66, 157, 237), rgb(91, 160, 188), white)
+}
+
+#resume {
+    padding: 1rem 2rem;
+    width: 15rem;
+    border-radius: 35px;
+    background-color: rgb(45, 45, 45);
+}
+
+#resume:hover {
+    background-color: white;
+}
+
+#resume:hover a {
+    color: black;
+}
+
+#resume>a {
+    color: white;
+    text-decoration: none;
+}
+
+#profile-picture-2 {
+    width: 20rem;
+    height: auto;
+}
+
+#introduction {
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+#projects {
+    background-color: #EEEEEE;
+}
+
+footer {
+    background-color: rgb(45, 45, 45);
+}
+
+footer>div:nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer>div>a>img {
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem 3rem;
+}
+
+footer>div>a>img:hover {
+    translate: 0 -.5rem;
+    transition: all .2s ease-in-out;
+}
+
+footer>div>p {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+    padding-bottom: 2rem;
+}
