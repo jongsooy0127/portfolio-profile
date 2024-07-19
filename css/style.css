@@ -26,6 +26,11 @@ header>img {
     align-items: center;
 }
 
+.name {
+    font-size: 3.5rem;
+    color: rgb(0, 0, 75);
+}
+
 .typed-cursor {
     font-size: 2.5rem;
 }
@@ -33,7 +38,7 @@ header>img {
 #profile-picture {
     border-radius: 50%;
     max-width: 90%;
-    background: linear-gradient(rgb(66, 157, 237), rgb(91, 160, 188), white)
+    background: linear-gradient(rgb(116, 116, 116), rgb(181, 181, 181), white)
 }
 
 #self-intro {
@@ -48,7 +53,8 @@ header>img {
 }
 
 #resume:hover {
-    background-color: ghostwhite
+    background-color: ghostwhite;
+    transition: all .2s ease-out;
 }
 
 #resume:hover a {

@@ -5,3 +5,6 @@ var typed = new Typed('#element', {
     backDelay: 1000,
     loop: true
 });
+
+ScrollReveal().reveal("#about");
+ScrollReveal().reveal("#projects", { delay: 1.5 });
