@@ -166,10 +166,14 @@ footer>div>p {
         margin-bottom: 3rem;
     }
 
-    #introduction {
+    #introduction>div {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    #introduction>div>div {
+        margin: 3rem;
     }
 }
