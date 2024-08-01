@@ -6,5 +6,6 @@ var typed = new Typed('#element', {
     loop: true
 });
 
-ScrollReveal().reveal("#about");
-ScrollReveal().reveal("#projects", { delay: 1.5 });
+// ScrollReveal().reveal("#about");
+// ScrollReveal().reveal("#introduction", { delay: 150 });
+ScrollReveal().reveal("#projects", { delay: 300, origin: "left", distance: "80px", duration: 1000 });
